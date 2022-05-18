@@ -1,0 +1,8 @@
+var number = 123480;
+var quantity = 0;
+
+while(number>1) {
+number=number/10;
+quantity++;
+}
+console.log(quantity);
