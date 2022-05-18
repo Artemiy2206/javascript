@@ -1,0 +1,12 @@
+var poly = 123454321;
+var ylop = 0;
+var isPalindrome = false;
+var poly2 = poly;
+while (poly2 >=1) {
+ylop=ylop*10 + poly2%10;
+poly2 = (poly2 - poly2%10) / 10;
+}
+if (poly === ylop) {
+isPalindrome = true
+}
+console.log(isPalindrome);
