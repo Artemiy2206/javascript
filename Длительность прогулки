@@ -1,0 +1,21 @@
+var temperature = 2;
+var itRaining = false;
+var minutes=0;
+
+if (!itRaining)
+{
+  if (temperature>=10 && temperature<15)
+  {
+    minutes = 30;
+  }
+  else if (temperature>=15 && temperature<25)
+  {
+    minutes=40;
+  }
+  else if (temperature>=25 && temperature<=35)
+  {
+    minutes=20;
+  }
+}
+
+console.log(minutes);
